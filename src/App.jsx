@@ -1,15 +1,13 @@
-
+import { Home } from './pages'
 import './App.css'
 
 function App() {
  
 
   return (
-    <>
-    <h1>Hello World </h1>
-      
-    </>
+   <Home/>
   )
 }
 
 export default App
+

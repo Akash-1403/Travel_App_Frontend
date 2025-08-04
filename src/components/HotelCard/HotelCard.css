@@ -1,0 +1,85 @@
+
+
+.relative{
+  position: relative;
+  margin: 15px;
+  
+  
+}
+
+.card-container {
+  width: 20rem;
+  border-radius: 5px;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+   box-shadow: 2px 2px 5px 4px rgba(0,0,0,.1);
+ 
+  
+}
+
+.img{
+  width: 100%;
+  height: 70%;
+ object-fit: cover;
+ 
+}
+
+.hotel-details{
+  padding: 2px 6px 5px 6px;
+
+  
+}
+
+.locandRating{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:var(--text-primary-color)
+}
+.location{
+  font-size: .96rem;
+  font-weight: bold;
+
+}
+
+.ptag{
+
+  margin: 0px;
+
+
+}
+
+.rating{
+  display: flex;
+  align-items: center;
+}
+
+.price{
+  display: flex;
+  gap: 1rem;
+  color: var(--text-primary-color);
+
+
+}
+.money{
+    font-weight: 600;
+  
+}
+
+.button{
+  position: absolute;
+  /* padding: 1.25rem; */
+  top:3px;
+  right: 2px;
+  background-color: transparent;
+  border: none;
+  color: var(--background-color);
+
+
+}
+
+.button:hover{
+ color: red;
+}
+
